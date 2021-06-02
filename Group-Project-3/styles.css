@@ -3,12 +3,23 @@ body {
     font-family: 'Open Sans', sans-serif; 
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 #hero {
     background-image: url("../images/hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     /* height: 75vh; */
+}
+
+.hero-image {
+  width: 75% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .nav-link.active {
@@ -19,9 +30,15 @@ body {
 .navbar-light .navbar-nav .nav-link {
     color:black;
     font-family: 'Roboto Slab';
-
 }
 
+.navbar-collapse {
+  flex-grow: unset;
+}
+nav .hamburger {
+  width:180px ;
+  text-align: right;
+}
 #my-logo {
     max-width: 30%;
     height: auto;
@@ -119,7 +136,7 @@ button {
 
 #adventure {
     margin-top: 25px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     padding-left: 100px;
     padding-right: 100px;
     font-family: 'Roboto Slab';
@@ -244,14 +261,14 @@ h4 {
 
 /* Float four columns side by side */
 .column {
-    float: left;
+    float: center;
     width: 25%;
     padding: 0 40px;
     text-align: center;
   }
   
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
+  .row {margin: auto;}
   
   /* Clear floats after the columns */
   .row:after {
@@ -388,7 +405,7 @@ h4 {
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    margin: 0 -16px;
+    margin: 0 auto;
   }
   
   .col-25 {
@@ -412,9 +429,9 @@ h4 {
     padding: 0 16px;
   }
   
-  .container {
+  .container-donate {
     background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
+    padding: 30px 20px 20px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
   }
@@ -533,6 +550,9 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px; 
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .form-group {
     color:black;
@@ -541,4 +561,13 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px;  
+}
+
+
+/* volunteer page */
+.columnVolunteer {
+  float: center;
+  width: 33%;
+  padding: 0 10px;
+  text-align: center;
 }
