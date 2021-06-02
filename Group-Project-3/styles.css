@@ -518,3 +518,27 @@ h4 {
     color: black;
     transform: rotateY(180deg);
   }
+h2 {
+    color:black;
+    font-family: 'Roboto Slab'; 
+}
+h3 {
+    color:black;
+    font-family: 'Roboto Slab'; 
+}
+.form-check {
+    color:black;
+    font-family: 'Roboto Slab';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px; 
+}
+.form-group {
+    color:black;
+    font-family: 'Roboto Slab';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;  
+}
